@@ -1,0 +1,4 @@
+frontend/package-lock.json linguist-generated=true
+frontend/node_modules/** linguist-vendored=true
+frontend/dist/** linguist-generated=true
+backend/venv/** linguist-vendored=true
