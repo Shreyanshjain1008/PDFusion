@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     docs_bucket: str = Field("pdfusion-documents", alias="DOCS_BUCKET")
     signatures_bucket: str = Field("pdfusion-signatures", alias="SIGNATURES_BUCKET")
     cors_origins: list[str] = Field(
-        default=["http://localhost:5173", "http://127.0.0.1:5173"],
+        default=["http://localhost:5173", "http://127.0.0.1:5173" , "https://pd-fusion-seven.vercel.app"],
         alias="CORS_ORIGINS",
     )
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
