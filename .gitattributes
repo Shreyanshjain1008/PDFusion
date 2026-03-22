@@ -1,10 +1,1 @@
-frontend/package-lock.json linguist-generated=true
-frontend/src/** linguist-vendored=true
-frontend/public/** linguist-vendored=true
-frontend/*.js linguist-vendored=true
-frontend/*.json linguist-vendored=true
-frontend/*.html linguist-vendored=true
-frontend/*.config.js linguist-vendored=true
-frontend/node_modules/** linguist-vendored=true
-frontend/dist/** linguist-generated=true
-backend/venv/** linguist-vendored=true
+*.js linguist-detectable=false
