@@ -1,15 +1,1 @@
-# Python cache
-__pycache__/
-*.pyc
 
-# Environment
-.env
-.venv/
-venv/
-backend/venv/
-frontend/node_modules/
-frontend/dist/
-
-# Build artifacts
-*.log
-tmp/
